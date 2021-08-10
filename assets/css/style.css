@@ -51,7 +51,7 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 100px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/HeroOceanImage.jpg");
@@ -69,68 +69,69 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+.flex-row {
+    display: flex;
+  }
 
-
+/* about me section */
 
 .about-me {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.my-work {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.contact-me {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .about-me img {
     max-height: 200px;
 }
 
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    float:left;
+}
+
+/* my work section */
+.my-work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .my-work img {
     max-height: 200px;
+}
+
+.my-work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    float:left;
+}
+
+/* contact me section */
+.contact-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contact-me img {
     max-height: 200px;
 }
 
-.about-me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.my-work h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .contact-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    float:left;
 }
 
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
