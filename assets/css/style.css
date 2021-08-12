@@ -56,7 +56,6 @@ body {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -117,7 +116,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 14px;
-    border: 4px solid #bd1321;
+    padding: 10px;
    }
 
 
@@ -136,7 +135,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   width: 15%;
-
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 14px;
   border: 4px solid #bd1321;
@@ -174,6 +173,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 80%;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 14px;
     border: 4px solid #bd1321;
@@ -227,6 +227,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 14px;
   border: 4px solid #bd1321;
@@ -237,7 +238,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   width: 15%;
-
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 14px;
   border: 4px solid #bd1321;
@@ -247,32 +248,39 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 85%;
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 14px;
   border: 4px solid #bd1321;
 }
 
-
-
-.contact-me img {
-    max-height: 200px;
+.flex-item-contact {
+  width: 25%;
+  border-radius: 14px;
+ 
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-size: cover;
+  background-position: right;
+  padding: 10px 10px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-.contact-me h2 {
-    display: inline-block;
-    font-size: 36px;
-    float: left;
-}
-
-.contact-me ul {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.contact-me nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+.flex-item span {
+  /* pushes element to bottom of flex item */
+  margin-top: auto;
+  width: 100%;
+  background-color: #a8adba;
+  color: #393b4f;
+  padding: 10px 5px;
+  text-align: center;
 }
 
 /* footer section */
@@ -286,7 +294,6 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-
 
 /* UTILITIES */
 .text-left {
