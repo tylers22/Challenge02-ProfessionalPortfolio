@@ -56,14 +56,9 @@ body {
     margin-right: 25px;
 }
 
-a {
-    text-decoration: none;
-    color: blue;
-}
+/* end header */
 
-p {
-    font-size: 20px;
-}
+/* hero */
 
 .hero {
     height: 100px;
@@ -87,7 +82,8 @@ p {
 .flex-row {
     display: flex;
   }
-/* solid line */
+
+  /* hero */
 
   /* about me section */
   .flex-container-about-me {
@@ -108,9 +104,7 @@ p {
     margin-bottom: 20px;
     border-radius: 14px;
     border-right: black;
-    
-    
-   }
+    }
 
    .flex-container-about-me-content {
     display: flex;
@@ -123,7 +117,9 @@ p {
     padding: 10px;
    }
 
+/* about me section */
 
+/* my work */
 .flex-container-my-work {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +127,6 @@ p {
   width: 100%;
   margin-bottom: 20px;
   border-radius: 14px;
-  
 }
 
 .flex-container-my-work-h2 {
@@ -142,7 +137,6 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 14px;
- 
  }
 
 .flex-container-main-app {
@@ -181,9 +175,7 @@ p {
     border-radius: 14px;
 
 }
-/* for text area inside of flex item */
 .flex-item span {
-  /* pushes element to bottom of flex item */
   margin-top: auto;
   width: 100%;
   background-color: #a8adba;
@@ -213,7 +205,6 @@ p {
 }
 
 .flex-item span {
-  /* pushes element to bottom of flex item */
   margin-top: auto;
   width: 100%;
   background-color: #a8adba;
@@ -221,8 +212,7 @@ p {
   padding: 10px 5px;
   text-align: center;
 }
-
-/* MY WORK END */
+/* my work end */
 
 /* contact me section */
 .flex-container-contact {
@@ -298,26 +288,39 @@ p {
     font-size: 20px;
 }
 
-/* UTILITIES */
+/* footer section end */
+
+/* utilities */
+a {
+  text-decoration: none;
+  color: rgb(248, 248, 252);
+}
+
+p {
+  font-size: 20px;
+}
+
 .text-left {
     text-align: left;
   }
   
-  .text-right {
-    text-align: right;
-  }
-  
-  .flex-row {
-    display: flex;
-  }
+.text-right {
+  text-align: right;
+}
 
-  hr {
-    min-height: 100%;
-    max-height: 100vh;
-    margin: 5;
-    width: 5px;
-    background-color: black;
-  }
+.flex-row {
+  display: flex;
+}
+
+hr {
+  min-height: 100%;
+  max-height: 100vh;
+  margin: 5;
+  width: 5px;
+  background-color: black;
+}
+
+/* utilities end */
   
   /* media query for smaller desktop */
   @media screen and (max-width: 980px) {
