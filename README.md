@@ -1,5 +1,18 @@
 # Challenge02-ProfessionalPortfolio
 
+# Author:
+Tyler Sharp
+
+# Description:
+Web page outlining my professional accomplishments and prjects completed during UofA boot camp.
+
+# Licenses Required:
+None
+
+# Installation:
+The index.htmal file for this project can be run from any browser locally or publicly via tylers22 GitLabs repository.
+
+# Project Requirements:
 USER STORY:
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
