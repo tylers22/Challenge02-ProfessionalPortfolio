@@ -4,7 +4,7 @@
 Tyler Sharp
 
 # Description:
-Web page outlining my professional accomplishments and prjects completed during UofA boot camp.
+Web page outlining my professional accomplishments and projects completed during UofA boot camp.
 
 # Licenses Required:
 None
